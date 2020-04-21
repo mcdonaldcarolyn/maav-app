@@ -1,3 +1,27 @@
-ion-content ion-toolbar {
+ion-content{
   --background: translucent;
+}
+ion-toolbar{
+--background:#f5df18;
+font-family: inconsolata;
+color: black;
+border-radius: 25px;
+text-align: center;
+}
+ion-card{
+  font-family: inconsolata;
+  font-size: 20px;
+  border-color: #f5df18;
+  border-radius: 10px;
+  border-width: full;
+  padding: 15px;
+  }
+:hover{
+  color: purple;
+}
+ion-label{
+  text-align: center;
+}
+.numbers{
+  text-align: right;
 }

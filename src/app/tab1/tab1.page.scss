@@ -1,3 +1,18 @@
 ion-content ion-toolbar {
   --background: translucent;
+  
+  }
+ion-toolbar{
+  --background:#f5b318;
+}
+ion-header{
+  text-align: center;
+}
+ion-item{
+  font-family: inconsolata;
+  font-size: 20px;
+  border-color: #f5df18;
+  border-radius: 10px;
+  border-width: full;
+  padding: 15px;
 }
