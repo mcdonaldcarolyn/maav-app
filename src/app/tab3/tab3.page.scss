@@ -1,3 +1,4 @@
+/*
 ion-content  {
   --background: translucent;
   
@@ -10,4 +11,16 @@ border-radius: 25px;
 ion-title{
   color: black;
   text-align: center;
+}
+*/
+
+.custom-checkbox .icon {
+  font-size: 20px;
+  position: absolute;
+  left: 16px;
+}
+
+// hiding default icon
+.custom-checkbox i.checkbox-icon {
+  display: none;
 }
