@@ -1,7 +1,8 @@
 {
   "name": "MAAVCard",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }
