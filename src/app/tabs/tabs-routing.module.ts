@@ -8,45 +8,45 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
-        path: 'tab1',
+        path: 'maavinfo',
         children: [
           {
             path: '',
             loadChildren: () =>
-              import('../tab1/tab1.module').then(m => m.Tab1PageModule)
+              import('../maavinfo/maavinfo.module').then(m => m.Tab1PageModule)
           }
         ]
       },
       {
-        path: 'tab2',
+        path: 'yellowcard',
         children: [
           {
             path: '',
             loadChildren: () =>
-              import('../tab2/tab2.module').then(m => m.Tab2PageModule)
+              import('../yellowcard/yellowcard.module').then(m => m.Tab2PageModule)
           }
         ]
       },
       {
-        path: 'tab3',
+        path: 'healthyrelationships',
         children: [
           {
             path: '',
             loadChildren: () =>
-              import('../tab3/tab3.module').then(m => m.Tab3PageModule)
+              import('../healthyrelationships/healthyrelationships.module').then(m => m.Tab3PageModule)
           }
         ]
       },
       {
         path: '',
-        redirectTo: '/tabs/tab1',
+        redirectTo: '/tabs/maavinfo',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tabs/tab1',
+    redirectTo: '/tabs/maavinfo',
     pathMatch: 'full'
   }
 ];

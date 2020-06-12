@@ -228,4 +228,19 @@
   ion-title.title-large {
     --color: white;
   }
+
+  ion-toolbar.yellowback {
+    --ion-toolbar-background: rgb(67, 67, 21);
+  }
+
+  ion-content.yellowback {
+    --ion-background-color: #f2e85f;
+  }
+  ion-content.round{
+    --ion-background-color: rgb(249, 165, 9);
+    --border-radius : 5px;
+  }
+  ion-title.fontsize{
+    --fontsize: 6px;
+  }
 }
