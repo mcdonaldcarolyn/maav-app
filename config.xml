@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.maav.yellowcard" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>MAAV Yellow Card</name>
-    <description>MAAV YellowCard App</description>
+<widget id="com.maav.yellowcard" version="2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>MAAV App</name>
+    <description>MAAV App</description>
     <author email="mcdonaldca@hotmail.com" href="https://carolyn.dev">Carolyn McDonald Whelpley</author>
     <content src="index.html" />
     <access origin="*" />
