@@ -7,6 +7,10 @@ import { Component } from '@angular/core';
 })
 export class Tab3Page {
   subTab = 'healthy';
+  slideOpts = {
+    initialSlide: 1,
+    speed: 400,
+  };
 
   segmentChanged($event: any) {
     this.subTab = $event.target.value;

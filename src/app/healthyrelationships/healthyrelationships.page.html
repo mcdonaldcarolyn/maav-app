@@ -9,7 +9,7 @@
       <ion-label>Healthy</ion-label>
     </ion-segment-button>
     <ion-segment-button value="redflag">
-      <ion-label>Red Flags</ion-label>
+      <ion-label>Unhealthy</ion-label>
     </ion-segment-button>
     <ion-segment-button value="helpingfriends">
       <ion-label>Helping</ion-label>
@@ -21,7 +21,39 @@
   
   <div *ngIf="subTab==='healthy'">
     <h1 style="font-size: 18px;">Healthy, whether it's friendship or romantic</h1>
-    <ul class="healthycolor">
+    <ion-slides pager="true" [options]="slideOpts">
+            <ion-slide>
+                <ion-card>
+                    <img
+                        src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+                       />
+                    <ion-card-header>
+                        <ion-card-title               >1. Listens to each other</ion-card-title             >
+          </ion-card-header           >
+                  </ion-card>
+              </ion-slide>
+            <ion-slide>
+                <ion-card>
+                    <img
+                        src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fblakedmorant%2Ffiles%2F2019%2F01%2FiStock-484221314-2x3-2-1200x800.jpg"
+                       />
+                    <ion-card-header>
+                        <ion-card-title               >2. Compromise when required</ion-card-title             >
+          </ion-card-header           >
+                  </ion-card>
+              </ion-slide>
+            <ion-slide>
+                <ion-card>
+                    <img
+                        src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_480686857_970511970450028_61800.jpg"
+                       />
+                    <ion-card-header>
+                        <ion-card-title               >3. Treat each other with respect</ion-card-title             >
+          </ion-card-header           >
+                  </ion-card>
+              </ion-slide>
+          </ion-slides>
+    <!-- <ul class="healthycolor">
       <li>Listens to each other</li>
       <li>Compromise when required</li>
       <li>Treat each other with respect</li>
@@ -33,7 +65,7 @@
       <li>Share thoughts and feelings without any fear</li>
       <li>Celebrate each other's joys, accomplishments, and sucesses</li>
       <li>Encourage each other to spend time with family and friends</li>
-    </ul>
+    </ul> -->
   </div>
   
   <div *ngIf="subTab==='redflag'">
