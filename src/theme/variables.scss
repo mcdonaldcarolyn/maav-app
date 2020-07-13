@@ -227,6 +227,8 @@
 
   ion-title.title-large {
     --color: white;
+    text-overflow: unset;
+   white-space: unset;
   }
 
   ion-toolbar.yellowback {

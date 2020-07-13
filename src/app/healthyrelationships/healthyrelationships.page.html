@@ -1,6 +1,8 @@
 <ion-header translucent>
   <ion-toolbar>
-    <ion-title text-align="center" style="font-style: strong;font-size: 20px;">Relationships</ion-title>
+    <ion-title text-align="center" style="font-style: strong; font-size: 20px;"
+      >Relationships</ion-title
+    >
   </ion-toolbar>
 </ion-header>
 <ion-content [fullscreen]="true" class="healthystyling">
@@ -18,106 +20,116 @@
       <ion-label>Breaking Up</ion-label>
     </ion-segment-button>
   </ion-segment>
-  
+
   <div *ngIf="subTab==='healthy'">
-    <h1 style="font-size: 18px;">Healthy, whether it's friendship or romantic</h1>
+    <h1 style="font-size: 18px;">
+      Healthy, whether it's friendship or romantic
+    </h1>
     <ion-slides pager="true" [options]="slideOpts">
-            <ion-slide>
-                <ion-card>
-              <img src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"/>
-            <ion-card-header>
-                        <ion-card-title>Listens to each other</ion-card-title>
-            </ion-card-header>
-          </ion-card>
+      <ion-slide>
+        <ion-card>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title>Listens to each other</ion-card-title>
+          </ion-card-header>
+        </ion-card>
       </ion-slide>
       <ion-slide>
-          <ion-card>
-                <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fblakedmorant%2Ffiles%2F2019%2F01%2FiStock-484221314-2x3-2-1200x800.jpg" />
-            <ion-card-header>
-              <ion-card-title>Compromise when required</ion-card-title>
-            </ion-card-header>
-          </ion-card>
+        <ion-card>
+          <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fblakedmorant%2Ffiles%2F2019%2F01%2FiStock-484221314-2x3-2-1200x800.jpg"/>
+          <ion-card-header>
+            <ion-card-title>Compromise when required</ion-card-title>
+          </ion-card-header>
+        </ion-card>
       </ion-slide>
       <ion-slide>
-          <ion-card>
-              <img src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_480686857_970511970450028_61800.jpg"/>
-               <ion-card-header>
-                     <ion-card-title>Treat each other with respect</ion-card-title>
-              </ion-card-header>
-          </ion-card>
+        <ion-card>
+          <img
+            src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_480686857_970511970450028_61800.jpg"
+          />
+          <ion-card-header>
+            <ion-card-title>Treat each other with respect</ion-card-title>
+          </ion-card-header>
+        </ion-card>
       </ion-slide>
-          
+
       <ion-slide>
-         <ion-card>
-             <img  src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"/>
-                  <ion-card-header>
-                        <ion-card-title>Don't constantly criticize each other</ion-card-title>
-                  </ion-card-header>
-           </ion-card>
-        </ion-slide>
-        <ion-slide>
-          <ion-card>
-             <img src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"/>
-                 <ion-card-header>
-                      <ion-card-title>Are free to do things they like</ion-card-title>
-                </ion-card-header>
-          </ion-card>
-        </ion-slide>
-        <ion-slide>
-          <ion-card>
-             <img src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-                 <ion-card-header>
-                      <ion-card-title>Respect wach other's boundaries</ion-card-title>
-            </ion-card-header>
-          </ion-card>
-        </ion-slide>
-        <ion-slide>
-          <ion-card>
-             <img
-              src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-                 <ion-card-header>
-                      <ion-card-title>Do not pressure each other to do things they don't want to do </ion-card-title>
-            </ion-card-header>
-          </ion-card>
-        </ion-slide>
-        <ion-slide>
-          <ion-card>
-             <img
-              src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-                 <ion-card-header>
-                      <ion-card-title>Feel good about being with each other</ion-card-title>
-            </ion-card-header>
-          </ion-card>
-        </ion-slide>
-        <ion-slide>
-          <ion-card>
-             <img
-              src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-                 <ion-card-header>
-                      <ion-card-title>Share thoughts and feelings without any fear </ion-card-title>
-            </ion-card-header>
-          </ion-card>
-        </ion-slide>
-        <ion-slide>
-          <ion-card>
-             <img
-              src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-                 <ion-card-header>
-                      <ion-card-title>Celebrate each other's joys, accomplishments, and sucesses </ion-card-title>
-            </ion-card-header>
-          </ion-card>
-        </ion-slide>
-        <ion-slide>
-          <ion-card>
-             <img
-              src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-                 <ion-card-header>
-                      <ion-card-title>Encourage each other to spend time with family and friends</ion-card-title>
-            </ion-card-header>
-          </ion-card>
-        </ion-slide>
-      </ion-slides>
-      
+        <ion-card>
+          <img src="assets/images/everythingok.jpg" />
+          <ion-card-header>
+            <ion-card-title
+              >Don't constantly criticize each other</ion-card-title >
+          </ion-card-header>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card>
+          <img src="assets/images/self.jpg"/>
+          <ion-card-header>
+            <ion-card-title>Are free to do things they like</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card>
+          <img src="assets/images/boundaries.jpg" />
+          <ion-card-header>
+            <ion-card-title>Respect each other's boundaries</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card>
+          <img src="assets/images/allin.jpg"/>
+          <ion-card-header>
+            <ion-card-title
+              >Do not pressure each other to do things they don't want to do
+            </ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card>
+          <img src="assets/images/goodbewith.jpg" />
+          <ion-card-header>
+            <ion-card-title>Feel good about being with each other</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card>
+          <img src="assets/images/share.jpg" />
+          <ion-card-header>
+            <ion-card-title
+              >Share thoughts and feelings without any fear
+            </ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card>
+          <img src="assets/images/cheer.jpg"/>
+          <ion-card-header>
+            <ion-card-title
+              >Celebrate each other's joys, accomplishments, and sucesses
+            </ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card>
+          <img src="assets/images/familyjpg.jpg"/>
+          <ion-card-header>
+            <ion-card-title
+              >Encourage each other to spend time with family and
+              friends</ion-card-title>
+          </ion-card-header>
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+
     <!-- <ul class="healthycolor">
       <li>1.Listens to each other</li>
       <li>2. Compromise when required</li>
@@ -132,155 +144,174 @@
       <li>11. Encourage each other to spend time with family and friends</li>
     </ul> -->
   </div>
-  
+
   <div *ngIf="subTab==='redflag'">
     <!-- <ion-list class="redflagcss"> -->
     <h1 style="font-size: 18px;">Red Flag Warnings</h1>
     <ion-slides pager="true" [options]="slideOpts">
       <ion-slide>
-         <ion-card>
-             <img src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                        <ion-card-title>1.Too serious about the relationship too quickly</ion-card-title>
-          </ion-card-header>
-        </ion-card>
-      </ion-slide>
-      <ion-slide>
-         <ion-card>
-             <img src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                        <ion-card-title>2.</ion-card-title>
+        <ion-card>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >1.Too serious about the relationship too quickly</ion-card-title
+            >
           </ion-card-header>
         </ion-card>
       </ion-slide>
       <ion-slide>
         <ion-card>
-             <img src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                <ion-card-title>3.Constantly monitors your whereabouts and checks in to see what you are
-            doing and who you are with</ion-card-title>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title>2.Checks cell phone or email without permission</ion-card-title>
           </ion-card-header>
         </ion-card>
       </ion-slide>
       <ion-slide>
         <ion-card>
-             <img src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                <ion-card-title>4.Is too serious about the relationship too quickly</ion-card-title>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >3.Constantly monitors your whereabouts and checks in to see what
+              you are doing and who you are with</ion-card-title
+            >
           </ion-card-header>
         </ion-card>
       </ion-slide>
       <ion-slide>
         <ion-card>
-             <img src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-               <ion-card-title>5.Checks your cell phone or email without permission</ion-card-title>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >4. Is very controlling. This may include giving you orders, telling you what to wear, and tryign to make all the decisions for you</ion-card-title
+            >
           </ion-card-header>
         </ion-card>
       </ion-slide>
       <ion-slide>
         <ion-card>
-          <img src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                 <ion-card-title>6.Constantly monitors your whereabouts and checks in to see what you are
-            doing and who you are with.</ion-card-title>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title>Is possessive</ion-card-title>
+  
           </ion-card-header>
         </ion-card>
       </ion-slide>
       <ion-slide>
         <ion-card>
-            <img src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                  <ion-card-title>7.Is very controlling. This may include giving you orders, telling you
-            what to wear, and trying to make all of the decisions for you.</ion-card-title>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title>6.Constantly puts you down</ion-card-title>
           </ion-card-header>
         </ion-card>
       </ion-slide>
       <ion-slide>
         <ion-card>
-             <img src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                   <ion-card-title>8.Is possessive.</ion-card-title>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >7. Is extremely jealous or insecure</ion-card-title
+            >
           </ion-card-header>
         </ion-card>
       </ion-slide>
       <ion-slide>
         <ion-card>
-             <img src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                    <ion-card-title>9. Constantly put you down.</ion-card-title>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title>8.Has an explosive temper</ion-card-title>
           </ion-card-header>
         </ion-card>
       </ion-slide>
       <ion-slide>
         <ion-card>
-             <img src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                 <ion-card-title>10.Is extremely jealous or insecure.</ion-card-title>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title>9. Isolated you from family or friends.</ion-card-title>
           </ion-card-header>
         </ion-card>
       </ion-slide>
       <ion-slide>
         <ion-card>
-             <img src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                 <ion-card-title>11.Has an explosive temper.</ion-card-title>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >10. Makes false accusations</ion-card-title
+            >
           </ion-card-header>
         </ion-card>
       </ion-slide>
       <ion-slide>
         <ion-card>
-            <img src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                        <ion-card-title>12.Isolates you from family or friends.</ion-card-title>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title>11. Has mood swings.</ion-card-title>
           </ion-card-header>
         </ion-card>
       </ion-slide>
       <ion-slide>
         <ion-card>
-             <img src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                        <ion-card-title>13.Makes false accusations</ion-card-title>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >12. Does not take responsiblity for their own actions.</ion-card-title
+            >
           </ion-card-header>
         </ion-card>
       </ion-slide>
       <ion-slide>
         <ion-card>
-             <img src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                        <ion-card-title>14.Has mood swings</ion-card-title>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title>13. Physically hurts you in any way</ion-card-title>
           </ion-card-header>
         </ion-card>
       </ion-slide>
       <ion-slide>
         <ion-card>
-             <img src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                        <ion-card-title>15. Does not take responsiblity for their own actions</ion-card-title>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title>14. Pressures or forces you to have sex. </ion-card-title>
           </ion-card-header>
         </ion-card>
       </ion-slide>
       <ion-slide>
         <ion-card>
-             <img src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                        <ion-card-title>16.Physically hurts you in any way</ion-card-title>
-          </ion-card-header>
-        </ion-card>
-      </ion-slide>
-      <ion-slide>
-        <ion-card>
-             <img src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                        <ion-card-title>17.Pressures or forces you to have sex</ion-card-title>
-          </ion-card-header>
-        </ion-card>
-      </ion-slide>
-      <ion-slide>
-        <ion-card>
-             <img src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                        <ion-card-title>18.Refuses to let you to end the relationship</ion-card-title>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >15. Refuses to let you end the relationship</ion-card-title
+            >
           </ion-card-header>
         </ion-card>
       </ion-slide>
@@ -307,7 +338,7 @@
       <li>10.Is extremely jealous or insecure.</li>
       <li>11.Has an explosive temper.</li>
       <li>12.Isolates you from family or friends.</li> -->
-      <!-- <li>13.Makes false accusations.</li>
+    <!-- <li>13.Makes false accusations.</li>
       <li>14. Has mood swings.</li>
       <li>15.Does not take responsiblity for their own actions</li>
       <li>16.Physically hurts you in any way</li>
@@ -321,52 +352,75 @@
     <h1 style="font-size: 18px;">How to help a Friend</h1>
     <ion-slides pager="true" [options]="slideOpts">
       <ion-slide>
-         <ion-card>
-             <img
-            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                        <ion-card-title>1.Start the Conversation- Without blaming, point out the behaviors you have noticed and ask them how they feel about it.</ion-card-title>
+        <ion-card>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >1.Start the Conversation- Without blaming, point out the
+              behaviors you have noticed and ask them how they feel about
+              it.</ion-card-title
+            >
           </ion-card-header>
         </ion-card>
-        </ion-slide>
-<ion-slide>
-   <ion-card>
-       <img
-      src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-      <ion-card-header>
-                  <ion-card-title>2. Be Supportive- Remember your friend may not recognize the abuse or want to end the relationship. Don't judge them.</ion-card-title>
-    </ion-card-header>
-  </ion-card>
-</ion-slide>
-<ion-slide>
-   <ion-card>
-       <img
-      src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-      <ion-card-header>
-                  <ion-card-title>3.Things to Say- If your friend does confide in you, you can say things like:</ion-card-title>
-    </ion-card-header>
-  </ion-card>
-</ion-slide>
-<ion-slide>
-   <ion-card>
-       <img
-      src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-      <ion-card-header>
-                  <ion-card-title>4.Connect them to resources- Web sites, text lines, and phone numbers are on the Getting Help pag</ion-card-title>
-    </ion-card-header>
-  </ion-card>
-</ion-slide>
-<ion-slide>
-   <ion-card>
-       <img
-      src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-      <ion-card-header>
-                  <ion-card-title>5.When in Need Get Support- If you feel that your friend is in immediate danger or that their life is at risk or has been
-      threatened, get emergency support by calling 911. Talk to a teacher, counselor, parent, or any trusted adult if there is
-      no imediate danger present.</ion-card-title>
-    </ion-card-header>
-  </ion-card>
-</ion-slide>
+      </ion-slide>
+      <ion-slide>
+        <ion-card>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >2. Be Supportive- Remember your friend may not recognize the
+              abuse or want to end the relationship. Don't judge
+              them.</ion-card-title
+            >
+          </ion-card-header>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >3.Things to Say- If your friend does confide in you, you can say
+              things like:</ion-card-title
+            >
+          </ion-card-header>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >4.Connect them to resources- Web sites, text lines, and phone
+              numbers are on the Getting Help pag</ion-card-title
+            >
+          </ion-card-header>
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+        <ion-card>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >5.When in Need Get Support- If you feel that your friend is in
+              immediate danger or that their life is at risk or has been
+              threatened, get emergency support by calling 911. Talk to a
+              teacher, counselor, parent, or any trusted adult if there is no
+              imediate danger present.</ion-card-title
+            >
+          </ion-card-header>
+        </ion-card>
+      </ion-slide>
     </ion-slides>
     <!-- <ol>
       <li>1.Start the Conversation- Without blaming, point out the behaviors you have noticed and ask them how they feel about it.</li>
@@ -382,90 +436,123 @@
       <li>5.When in Need Get Support- If you feel that your friend is in immediate danger or that their life is at risk or has been threatened, get emergency support by calling 911. Talk to a teacher, counselor, parent, or any trusted adult if there is no imediate danger present. </li>
       </ol> -->
     <!-- </ion-list> -->
-    </div>
-  <div *ngIf="subTab==='breakingup'"> 
+  </div>
+  <div *ngIf="subTab==='breakingup'">
     <!-- <ion-list> -->
-    <h1 style="font-size: 18px">Tips for breaking up safely</h1>
+    <h1 style="font-size: 18px;">Tips for breaking up safely</h1>
     <ion-slides pager="true" [options]="slideOpts">
       <ion-slide>
-         <ion-card>
-             <img
-            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                        <ion-card-title>1. If you don't feel safe, don't break up in person. It may seem cruel to break up over the phone or by text but it may be
-            the safest way.</ion-card-title>
+        <ion-card>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >1. If you don't feel safe, don't break up in person. It may seem
+              cruel to break up over the phone or by text but it may be the
+              safest way.</ion-card-title
+            >
           </ion-card-header>
         </ion-card>
       </ion-slide>
       <ion-slide>
-         <ion-card>
-             <img
-            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                        <ion-card-title>2. If you break up in person, so it in a public place. Have a friend or a parent wait nearby. Have your cell phone with
-            you.</ion-card-title>
+        <ion-card>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >2. If you break up in person, so it in a public place. Have a
+              friend or a parent wait nearby. Have your cell phone with
+              you.</ion-card-title
+            >
           </ion-card-header>
         </ion-card>
       </ion-slide>
       <ion-slide>
-         <ion-card>
-             <img
-            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                        <ion-card-title>3. Don't try to explain your reasons for ending the relationship more than once. There is nothing you can say that will
-            make your ex-partner happy.</ion-card-title>
+        <ion-card>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >3. Don't try to explain your reasons for ending the relationship
+              more than once. There is nothing you can say that will make your
+              ex-partner happy.</ion-card-title
+            >
           </ion-card-header>
         </ion-card>
       </ion-slide>
       <ion-slide>
-         <ion-card>
-             <img
-            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                        <ion-card-title>4. Let your friends and parents know you are ending your relationship, especially if you think your ex-partner will come to
-            your house or confront you when you're alone.</ion-card-title>
+        <ion-card>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >4. Let your friends and parents know you are ending your
+              relationship, especially if you think your ex-partner will come to
+              your house or confront you when you're alone.</ion-card-title
+            >
           </ion-card-header>
         </ion-card>
       </ion-slide>
       <ion-slide>
-         <ion-card>
-             <img
-            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                        <ion-card-title>5. If your ex-partner does come to your house when you're alone, don't go to the door.</ion-card-title>
+        <ion-card>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >5. If your ex-partner does come to your house when you're alone,
+              don't go to the door.</ion-card-title
+            >
           </ion-card-header>
         </ion-card>
       </ion-slide>
       <ion-slide>
-         <ion-card>
-             <img
-            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                        <ion-card-title>6. Trust yourself. If you feel afraid, you probably have a good reason.</ion-card-title>
+        <ion-card>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >6. Trust yourself. If you feel afraid, you probably have a good
+              reason.</ion-card-title
+            >
           </ion-card-header>
         </ion-card>
       </ion-slide>
       <ion-slide>
-         <ion-card>
-             <img
-            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                        <ion-card-title>7. Ask for help. Go to www.loveisrespect.org and chat with a trained peer advocate who is able to answer your questions.
-            Talk to any trusted adult or call MAAV at 781-662-2010.</ion-card-title>
+        <ion-card>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >7. Ask for help. Go to www.loveisrespect.org and chat with a
+              trained peer advocate who is able to answer your questions. Talk
+              to any trusted adult or call MAAV at 781-662-2010.</ion-card-title
+            >
           </ion-card-header>
         </ion-card>
       </ion-slide>
       <ion-slide>
-         <ion-card>
-             <img
-            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w" />
-            <ion-card-header>
-                        <ion-card-title>8Just because an nnhealthy or abusive relationship is over, that doesn't mean the risk or violence is too. Talk with your
-            friends, family, and trusted adult at school so they can support you.</ion-card-title>
+        <ion-card>
+          <img
+            src="https://static1.squarespace.com/static/58ebeae859cc68b20f410b26/5a281fa5e2c4838eb6e38450/5a302bb5419202a08e5e0347/1513106439847/listen.jpg?format=1500w"
+          />
+          <ion-card-header>
+            <ion-card-title
+              >8Just because an nnhealthy or abusive relationship is over, that
+              doesn't mean the risk or violence is too. Talk with your friends,
+              family, and trusted adult at school so they can support
+              you.</ion-card-title
+            >
           </ion-card-header>
         </ion-card>
       </ion-slide>
-      </ion-slides>
+    </ion-slides>
     <!-- <ul>
     <li>1.If you don't feel safe, don't break up in person. It may seem cruel to break up over the phone or by text but it may be the safest way.</li>
     <li>2.If you break up in person, so it in a public place. Have a friend or a parent wait nearby. Have your cell phone with you.</li>
