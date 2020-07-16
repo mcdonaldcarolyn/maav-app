@@ -60,32 +60,39 @@ ion-list-header {
   text-transform: uppercase;
   font-size: 16px;
   text-align: center;
-  
 }
 
 ion-list {
   margin-bottom: 20px !important;
 }
-h1.headerfont{
+h1.headerfont {
   font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
-ion-title.fontsize{
+ion-title.fontsize {
   background-color: yellow;
 }
 ion-card.bordercolor {
   border: 4px solid rgb(250, 250, 155);
 }
 
- ion-content.yellowback {
-    --ion-background-color: rgb(245, 245, 189);
-  }
-  ion-content.ul.tab3color{
-    --ion-background-color: rgb(244, 178, 187);
-  }
-  ion-content.ul.healthycolor{
-    --ion-background-color: pink;
-  }
-  ion-content.healthystyling{
-    font-size: 20px;
-  }
+ion-content.yellowback {
+  --ion-background-color: rgb(245, 245, 189);
+}
+ion-content.ul.tab3color {
+  --ion-background-color: rgb(244, 178, 187);
+}
+ion-content.ul.healthycolor {
+  --ion-background-color: pink;
+}
+ion-content.healthystyling {
+  font-size: 20px;
+}
+.slide-footer {
+  font-size: 14px;
+  position: absolute;
+  bottom: 35px;
+}
+.slide-card {
+  min-height: 420px;
+}
