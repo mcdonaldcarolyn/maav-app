@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class Tab3Page {
   subTab = 'healthy';
   slideOpts = {
-    initialSlide: 1,
+    initialSlide: 0,
     speed: 400,
   };
 
